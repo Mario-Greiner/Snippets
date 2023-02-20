@@ -9,3 +9,4 @@
 | PHP | [LetterAvatar.php](https://github.com/Mario-Greiner/Snippets/blob/master/PHP/LetterAvatar.php) | [show](https://github.com/Mario-Greiner/Snippets/blob/master/PHP/Examples/LetterAvatar.php) | Create a letteravatar based on a name |
 | PHP | [domain.php](https://github.com/Mario-Greiner/Snippets/blob/master/PHP/whois/domain.php) | ❌ | Get information about a domain |
 | PHP | [ip.php](https://github.com/Mario-Greiner/Snippets/blob/master/PHP/whois/ip.php) | ❌ | Get information about a ip addess |
+| PHP | [datamatrix.php](https://github.com/Mario-Greiner/Snippets/blob/master/PHP/datamatrix.php) | [show](https://github.com/Mario-Greiner/Snippets/blob/master/PHP/Examples/datamatrix.php) | Turn a string into a svg datamatrix |
