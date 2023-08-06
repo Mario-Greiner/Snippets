@@ -4,7 +4,7 @@
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
 
-    $path = "PATH/FOR/THE/FILES/";
+    $path = "PATH/FOR/THE/FILES";
     $config = array(
         "digest_alg" => "sha512",
         "private_key_bits" => 4096,
@@ -21,8 +21,8 @@
     $pubKey = openssl_pkey_get_details($res);
     $pubKey = $pubKey["key"];
     
-    file_put_contents($path . 'public-key.pem', $pubKey); 
-    file_put_contents($patj . 'private-key.pem', $privKey);
+    file_put_contents($path . '/public-key.pem', $pubKey); 
+    file_put_contents($path . '/private-key.pem', $privKey);
 
     echo "Saved certificates to: " . $path;
 ?>
